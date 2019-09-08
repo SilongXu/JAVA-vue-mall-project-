@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="gulimall-gateway" />
+        <module name="sso-server" />
+        <module name="gulimall-search" />
+        <module name="guli-generator" />
+        <module name="gulimall-cart" />
+        <module name="gulimall-order" />
+        <module name="gulimall-oms" />
+        <module name="gulimall-pms" />
+        <module name="gulimall-core" />
+        <module name="gulimall-sms" />
+        <module name="gulimall-ums" />
+        <module name="gulimall-wms" />
+        <module name="gulimall-admin" />
+        <module name="lock-test" />
+        <module name="sso-client" />
+      </profile>
+    </annotationProcessing>
+  </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="guli-generator" options="-parameters" />
+      <module name="gulimall-admin" options="-parameters" />
+      <module name="gulimall-cart" options="-parameters" />
+      <module name="gulimall-gateway" options="-parameters" />
+      <module name="gulimall-oms" options="-parameters" />
+      <module name="gulimall-order" options="-parameters" />
+      <module name="gulimall-pms" options="-parameters" />
+      <module name="gulimall-search" options="-parameters" />
+      <module name="gulimall-sms" options="-parameters" />
+      <module name="gulimall-ums" options="-parameters" />
+      <module name="gulimall-wms" options="-parameters" />
+      <module name="lock-test" options="-parameters" />
+      <module name="sso-client" options="-parameters" />
+      <module name="sso-server" options="-parameters" />
+    </option>
+  </component>
+</project>

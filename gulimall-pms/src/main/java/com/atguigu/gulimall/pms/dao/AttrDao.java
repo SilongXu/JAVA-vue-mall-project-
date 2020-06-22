@@ -5,7 +5,7 @@ import com.baomidou.mybatisplus.core.mapper.BaseMapper;
 import org.apache.ibatis.annotations.Mapper;
 
 /**
- * 商品属性
+ * 商品属性ma
  * 
  * @author leifengyang
  * @email lfy@atguigu.com
